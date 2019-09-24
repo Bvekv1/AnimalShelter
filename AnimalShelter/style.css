@@ -1,0 +1,470 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+width:auto;
+height: auto;
+}
+
+#profile{
+	width:500px;
+	height:800px;
+	background-color:red;
+	margin-left: 400px;
+
+
+}
+
+
+
+#pagenumber{
+	margin-top: 920px;
+	text-align: justify;
+	margin-left: 1300px;
+ 
+}
+
+
+#pagenumber a{
+	padding-left: 4px;
+	 text-decoration: none;
+}
+
+#animalpage{
+	float: right;
+	margin-right:40px;
+
+}
+#animalpage a{
+	padding-left: 4px;
+	text-decoration: none;
+	color:blue;
+}
+#visit{
+	color:white;
+}
+
+#list{
+	width:200px;
+	height: 210px;
+	color: green;
+    border-style: ridge;
+	background-color: lightgreen;
+	margin:0 50px;
+	margin-top: 20px;
+    float: left;
+	text-align: justify;
+}
+
+#history{
+	background-color: green;
+	
+	width:100px;
+	height:auto;
+	float: right;
+	padding-left: 20px;
+
+}
+
+
+
+#list{
+	text-align:center;
+}
+#list a{
+
+}
+
+#loop form{
+	margin-left: 0px;
+	margin-top: 0px;
+	border-style: ridge;
+	width:210px;
+	height:auto;
+	padding-left: 20px;
+	background-color: steelblue;
+}
+#bibek form{
+	margin-left: 0px;
+	margin-top: 0px;
+	border-style: ridge;
+	width:210px;
+	height:auto;
+	padding-left: 20px;
+	background-color: steelblue;
+}
+
+
+
+#small{
+	width:200px;
+}
+.animal_form{
+	padding-left: 20px;
+	width:150px;
+	height: 30px;
+	color:steelblue;
+	border-style: solid;
+	display:block;
+	background-color: lightblue;
+	font-style: italic;
+
+
+}
+
+.btn_add{
+	width:50px;
+	height:30px;
+}
+
+
+
+table img{
+	width:100px;
+	height:100px;
+}
+
+table img:hover{
+	transform:scale(1.5,1.5);
+}
+
+
+
+
+#mainbody{
+	width:100%;
+	height:960px;
+	background-color: steelblue;
+
+}
+#gift{
+	background-color: yellow;
+	width:250px;
+	height:960px;
+	float: right;
+
+}
+#gift input{
+	margin-left: 10px;
+	width:40px
+	
+}
+
+
+
+#answer{
+	width:500px;
+	height: 400px;
+	background-color: red;
+	margin-left:500px;
+	margin-top: 100px;
+}
+
+
+#nav {
+	width:100%;
+	background-color: #333333;
+	overflow:hidden;
+}
+
+#nav p{
+	color:white;
+	padding-left: -10px;
+	font-size: xx-large;
+	text-align: center;
+}
+ p #name{
+ 	color:white;
+ 	padding-left: -10px;
+ 	font-size: large;
+ }
+
+#nav ul{
+
+list-style-type: none;
+overflow: hidden;
+margin:0;
+padding: 0;
+}   
+
+#nav li{
+	float:right;
+}
+
+
+#nav li a{
+	display:inline;
+	color:white;
+	text-decoration: none;
+	padding-right: 50px;
+	font-size: large;
+	text-align: center;
+
+
+}
+
+#nav li a:hover{
+		background: linear-gradient(blue, green);
+
+}
+h1{
+	font-size: 15px;
+}
+
+#login_box form label{
+	color: red;
+
+}
+#login_box{
+	width: 300px;
+	height: 270px;
+    margin-left: 500px;
+    margin-top: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    border-style: ridge;
+    border-color: white;
+    border-width: 10px;
+    background-image: url(image/download.png);
+    background-size: 300px;
+    position: absolute;
+
+}
+
+.mytext{
+	width: 250px;
+	height: 30px;
+	font-size: 25px;
+	margin-top: 10px;
+	font-style: italic;
+	margin-left: 15px;
+    
+}
+
+
+
+.btn{
+	
+	background-color: white;
+	color: black;
+	width: 75px;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 35px;
+	float:right;
+	font-size: 16px;
+	font-family: Arial;
+
+}
+
+.btn:focus{
+	
+	background: linear-gradient(blue, green);
+	border: none;
+	color: steelblue;
+}
+a{
+	color: yellow;
+	font-size: 20px;
+}
+
+a:hover{
+	color: blue;
+}
+
+h2{
+	margin-left: 30px;
+	margin-top:0;
+	color:blue;
+	font-family: cursive;
+
+}
+
+#register_box form label{
+	color: White;
+}
+ 
+ #register_box{
+     width:520px;
+	height:auto;
+	margin-left: 450px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 18px;
+	 border-style: ridge;
+    border-color: green;
+    border-width: 10px;
+    background-size: 480px;
+    position: absolute;
+    background-image: url(image/register.jpg);
+    background-size: auto;
+    position: absolute;
+   
+
+ }
+ .myspace{
+  
+   width: 500px;
+   height: 30px;
+   color: black;
+   border-style: solid;
+   display: block;
+   margin-top: 10px;
+   background-color: lightblue;
+   font-style: italic;
+}
+.myspace:focus {
+	background-color: white;
+}
+#myspace{
+	margin-top: 10px;
+	color:white;
+}
+
+#register_box .btn_register{
+	background-color: steelblue;
+	color: white;
+	width: 500px;
+	height: 30px;
+	margin-top: 20px;
+}
+
+#register_box .btn_register:focus{
+	background-color: white;
+	border: none;
+	color: steelblue;
+}
+
+#register_box input[type="radio"]{
+	margin: 5px 8px 25px 0px;
+}
+
+
+#editanimal{
+	margin-left:300px;
+	margin-top: -350px;
+	width:700px;
+	height:auto;
+	background-color: green;
+}
+
+#bibek{
+	width:85%;
+	height:960px;
+	background-color: lightgreen;
+	float:right;
+	padding-top: 10px;
+
+}
+#loop{
+	width:85%;
+	height:auto;
+	background-color: red;
+	float:right;
+	padding-top: 10px;
+}
+
+#left{
+	width: 15%;
+	height: 960px;
+	background-color: green;
+	padding-top:10px;
+	float: left;
+}
+
+#username
+{
+	margin-left:10px;
+	font-size:18px;
+}
+
+#left a{
+	list-style-type: none;
+
+}
+
+ footer{
+ 	width:100%;
+ 	height:200px;
+ 	background-color: #333333;
+ 	text-align: justify;
+ 	color:white;
+ }
+
+
+ #icon {
+
+  width: 30%;
+ 	float: right;
+ 	padding-left: 80px;
+ }
+
+ #icon li{
+ 	list-style-type: none; 
+ 	overflow: hidden;
+ 	float: left;
+  
+ }
+
+ #icon h6{
+ 	font-size: 14px;
+ 	margin-left: 30px;
+ 	font-family: italic;
+ }
+
+ 
+ 
+#icon li a img{
+	width:50px;
+	height:40px;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+#con{
+ 	width: 30%;
+ 	float: left;
+ }
+
+ #con h6 {
+margin-left: 40px
+ }
+
+ #con p {
+margin-left: 20px
+ }
+
+
+#us{
+  width: 30%;
+ 	float: right;
+ }
+
+#slide_1{
+	height:500px;
+	width:700px;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+
+#slide_2{
+	height:500px;
+	width:700px;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+#last{
+	margin-left: 10px;
+
+}
+
+#giftim td img{
+ margin-left: 10px;
+
+}

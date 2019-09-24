@@ -1,0 +1,783 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	width:1500px;;
+	margin: 0 auto;
+	background-color: black;
+	border: #000000 solid 4px;
+}
+
+.top
+{
+	width:1500px;
+	height:20px;
+	background-color: #2A2424;
+}
+
+.nav
+{
+	width:800px;
+	height:20px;
+	color:white;
+	float:left;
+}
+
+.nav a
+{
+	text-decoration: none;
+	color:white;
+}
+
+.nav a:hover
+{
+	text-decoration: underline;
+}
+
+.header
+{
+	height:100px;
+	width:1500px;
+}
+
+.logo
+{	
+	height:100px;
+	width:350px;
+	float:left;
+}
+
+.logo img
+{
+	height:90px;
+	width:300px;
+	margin:0 10px;
+}
+
+
+header .login
+{
+	width:1070px;
+	height:90px;
+	background-color: black;
+	float:right;
+	text-align: right;
+	color:white;
+	margin:0 75px 0 0px;
+}
+
+header table
+{
+	height:50px;
+	width:450px;
+	border: white solid 1px;
+	border-radius: 10px;
+	float:right;
+	padding:0 20px;
+	margin: 2px 0;
+}
+
+header table #un
+{
+	padding:0 95px 0 0;
+}
+header table #pass
+{
+	padding:0 155px 0 0;
+}
+
+header #log
+{
+	background-color: black;
+	width:60px;
+	color: white;
+	padding: 2px 3px;
+	border-radius:5px;
+	border:white solid 1px;
+	font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+
+section
+{
+	width:1500px;
+	height:600px;
+	background-image:url(../image/maxresdefault.jpg);
+	background-color: white;
+}
+
+.dash
+{
+	height:600px;
+	width:900px;
+	float: left;
+}
+
+.signup
+{
+	width:600px;
+	height:600px;
+	float: right;
+	
+}
+
+section form .reg
+{
+	margin: 40px 110px;
+	border: white solid 1px;
+	border-radius: 10px;
+	padding: 0 20px 20px 20px;
+	background-color: black;
+	opacity: 0.75;
+	color: white;
+	box-shadow:black 3px 3px 3px;
+}
+
+section #sig
+{
+	text-align: center;
+}
+
+
+section form .lab
+{
+	width: 100px;
+	float:left;
+}
+
+section form .date
+{
+	padding: 3px;
+	border-radius:2.5px;
+	border:black solid 1px;
+}
+
+section form .text
+{
+	width: 200px;
+	color:black;
+	padding: 3px;
+	border-radius:2.5px;
+	border:black solid 1px;
+}
+
+section form .i
+{
+	width: 200px;
+	color:white;
+	padding: 3px;
+	border-radius:2.5px;
+	border:black solid 1px;
+}
+section form .num
+{
+	width: 50px;
+	color:black;
+	padding: 3px;
+	border-radius:2.5px;
+	border:black solid 1px;
+}
+ 
+section #register
+{
+	font-size: 16px;
+	background-color: black;
+	width:70px;
+	color: white;
+	padding: 2px 3px;
+	border-radius: 5px;
+	border: white solid 2px;
+	font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	margin-left: 140px;
+}
+
+#war
+{
+	color:red;
+	margin-left: 100px;
+}
+
+footer
+{
+	color:white;
+	text-align: center;
+}
+
+footer .foot
+{
+	width: 1500px;
+}
+footer #copyright
+{
+	width: 900px;
+	float:left;
+	text-align: right;
+	padding-right: 450px;
+}
+
+footer #visited
+{
+	width: 130px;
+	float:right;
+	text-align: right;
+	padding-right:20px;
+	
+
+}
+/*admin-home*/
+
+.info
+{
+	width:680px;
+	height:20px;
+	color:white;
+	float: right;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.info a
+{
+	text-decoration: none;
+	color:white;
+}
+
+.info a:hover
+{
+	text-decoration: underline;
+}
+
+.con
+{
+	width:1090px;
+	height: 80px;
+	float: right;
+	margin:10px 0;
+	padding-right:50px;
+	border:white solid 1px;
+	border-radius: 5px;
+}
+
+.con li
+{
+	font-weight: bold;
+	display: inline;
+	width:140px;
+	float:right; 
+	text-align:center;
+	padding-top: 10px;
+}
+
+.con a
+{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	margin: 5px 0 5px 0px;
+	font-size: 16px;
+	border-radius: 5px;
+	opacity: 0.7;
+	padding: 0;
+}
+
+.con a:hover
+{
+background-color: white;
+color: black;
+}
+
+.con a:active
+{
+color: #000000;
+background-color: #ADA8A8;
+
+}
+
+/*add-animal*/
+
+form #a
+{
+	width:1500px;
+	height:580px;
+}
+
+form #new
+{
+	margin: 40px 550px;
+	border: white solid 1px;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	background-color: black;
+	opacity: 0.75;
+	color: white;
+	box-shadow:black 3px 3px 3px;
+	position:absolute;
+}
+section #add
+{
+	font-size: 16px;
+	background-color: black;
+	width:70px;
+	color: white;
+	padding: 2px 3px;
+	border-radius: 5px;
+	border: white solid 2px;
+	font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	margin-left: 20px;
+	float:right;
+}
+
+section #anim
+{
+	height:280px;
+	width:180px;
+	float:left;
+	color:white;
+	background-color: black;
+	margin:5px 20px;
+	border:white solid 1px;
+	box-shadow:black 3px 3px 3px;
+	opacity: 0.75;
+	padding-left:20px;
+	border-radius: 10px;
+	
+}
+
+#anim .aani
+{
+	height:80px;
+	width:160px;
+	margin:10px 0px;
+}
+
+#anim p
+{
+	margin:0;
+	text-align: left;
+}
+
+#anim #up
+{
+	
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	margin:0 15px;
+}
+#anim #up:hover
+{
+	text-decoration: underline;
+}
+
+#anim #ad
+{
+	
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	margin:0 10px;
+}
+#anim #ad:hover
+{
+	text-decoration: underline;
+}
+
+#va #ado
+{
+	
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	margin:0 50px;
+}
+#va #ado:hover
+{
+	text-decoration: underline;
+}
+
+section #va
+{
+	height:520px;
+	width:400px;
+	color:white;
+	background-color: black;
+	margin:10px 400px;
+	border:white solid 1px;
+	box-shadow:black 3px 3px 3px;
+	opacity: 0.75;
+	padding-left:20px;
+	border-radius: 10px;
+	position: absolute;
+	text-align: center;
+	
+}
+
+#va .aave
+{
+	height:200px;
+	width:300px;
+	margin:10px 0px;
+}
+
+
+#anim #h
+{
+	color:red;
+	margin-left:30px;
+	text-decoration: overline underline;
+}
+
+section #au
+{
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 30px;
+}
+section #note
+{
+	position:absolute;
+	margin-top:540px;
+	margin-left:90px;
+	border: black solid 1px;
+	padding:5px;
+	border-radius: 10px;
+	box-shadow:black 3px 3px 3px;
+}
+
+section form #euser
+{
+	width: 200px;
+	color:white;
+	padding: 3px;
+	border-radius:2.5px;
+	border:white solid 1px;
+	opacity: 0.80;
+	background-color: black;
+}
+
+section form .uedit
+{
+	width:1500px;
+	height:580px;
+}
+
+section form .uupdate
+{
+	margin: 40px 550px;
+	border: white solid 1px;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	background-color: black;
+	opacity: 0.75;
+	color: white;
+	box-shadow:black 3px 3px 3px;
+	position:absolute;
+}
+
+section form #update
+{
+	font-size: 16px;
+	background-color: black;
+	width:70px;
+	color: white;
+	padding: 2px 3px;
+	border-radius: 5px;
+	border: white solid 2px;
+	font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	margin-left: 140px;
+}
+
+section form #edit
+{
+	margin-top:0;
+	text-align: center;
+}
+
+section form #d
+{
+	width:1500px;
+	height:580px;
+}
+
+section form #dont
+{
+	margin: 150px 550px;
+	border: white solid 1px;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	background-color: black;
+	opacity: 0.75;
+	color: white;
+	box-shadow:black 3px 3px 3px;
+	position:absolute;
+}
+
+section form .lb_d
+{
+	width: 200px;
+}
+
+/*donation detail*/
+
+section #u_d
+{
+	width:1500px;
+	height:580px;
+}
+
+section #t_d
+{
+	margin: 20px 500px;
+	border: white solid 1px;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	background-color: black;
+	opacity: 0.75;
+	color: white;
+	box-shadow:black 3px 3px 3px;
+	position:absolute;
+}
+
+section #t_d #d
+{
+	margin-top:-5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+section #t_d #dona
+{
+	width: 500px;
+	border: white solid 1px;
+}
+
+section #t_d #dona tr
+{
+	text-align: center;
+}
+
+section #t_d #dona th
+{
+	border: white solid 1px;
+}
+
+section #t_d #dona td
+{
+	border: white solid 1px;
+}
+section #t_d #dona #t
+{
+	
+	border:none;
+}
+
+/*community-forum*/
+section .for
+{
+	width:1500px;
+	height:580px;
+}
+
+section .um
+{
+	margin: 20px 500px;
+	border: white solid 1px;
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	background-color: black;
+	opacity: 0.75;
+	color: white;
+	box-shadow:black 3px 3px 3px;
+	position:absolute;
+}
+
+section .um #dis
+{
+	position: relative;
+	width:480px;
+	height:280px;
+	border: white solid 1px;
+	border-radius: 5px;
+	padding:0 10px;
+}
+section .que
+{
+	width:500px;
+	height:100px;
+	border: black solid 1px;
+	border-radius: 5px;
+	
+}
+
+section form #sub
+{
+	font-size: 16px;
+	background-color: black;
+	width:70px;
+	color: white;
+	padding: 2px 3px;
+	border-radius: 5px;
+	border: white solid 2px;
+	font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	margin-left: 220px;
+	margin-top:5px;
+	margin-bottom: -5px;
+}
+
+section #num
+{
+	position: inherit;
+	color: black;
+	margin-top:575px;
+/*	margin-left:450px;*/
+	font-size: 20px;
+}
+
+section #pag
+{
+	color: black;
+	text-decoration: none;
+}
+
+section #pag:hover
+{
+
+	text-decoration: underline;
+}
+
+section #dis #unma
+{
+	color: red;
+}
+
+/*forum page*/
+
+section #num1
+{
+/*	position: ;*/
+	color: white;
+	margin:5px 0 10px 0px;;
+	font-size: 16px;
+}
+
+section #pag1
+{
+	color: white;
+	text-decoration: none;
+}
+
+section #pag1:hover
+{
+
+	text-decoration: underline;
+}
+
+
+section #dis #adis
+{
+	position: relative;
+	width:460px;
+	height:70px;
+	border: white solid 1px;
+	border-radius: 5px;
+	padding:0 10px;
+}
+section .ans
+{
+	width:420px;
+	height:20px;
+	border: black solid 1px;
+	border-radius: 5px;
+	margin-top:5px;
+	
+}
+
+section form #asub
+{
+	position: absolute;
+	margin-top:5px;
+	margin-left:5px;
+	font-size: 14px;
+	background-color: black;
+	width:50px;
+	color: white;
+	padding: 2px 3px;
+	border-radius: 5px;
+	border: white solid 2px;
+	font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+
+
+/*slider*/
+section .dash #s 
+{
+	position:absolute;
+	width:750px;
+	height:500px;
+	margin:30px 50px 20px 100px;
+	border: black solid 1px;
+	box-shadow:black 3px 3px 3px;
+}
+
+section .dash .slider
+{
+	position:absolute;
+	width:500px;
+	height:400px;
+	margin:20px 50px 20px 120px;
+	border: black solid 1px;
+}
+
+section #s #no1
+{
+	position:absolute;
+	font-size: 20px;
+	opacity:0.75;
+	color:white;
+	background-color: black;
+	border: black;
+	margin:450px 0 0 320px;
+}
+
+section #s #no2
+{
+	position:absolute;
+	font-size: 20px;
+	opacity:0.75;
+	color:white;
+	background-color: black;
+	border: black;
+	margin:450px 0 0 350px;
+}
+
+section #s #no3
+{
+	position:absolute;
+	font-size: 20px;
+	opacity:0.75;
+	color:white;
+	background-color: black;
+	border: black;
+	margin:450px 0 0 380px;
+}
+
+section #his
+{
+	color:white;
+	margin-top: -5px;
+}
+
+section #de
+{
+	margin:0 10px;
+	text-decoration: none;
+	color:red;
+}
+
+section #de:hover
+{
+	border: white solid 1px;
+}
